@@ -6,7 +6,7 @@ import ContentSection from "../Components/ContentSection";
 import Services from "../Components/Services";
 import ServicesExtension from "../Components/ServicesExtension";
 import BestSeller from "../Components/BestSeller";
-import UserHeader from "../Components/user/TempHeader";
+import UserHeader from "../Components/user/UserHeader";
 import Cart from "../Components/user/Cart";
 import Wishlist from "../Components/user/Wishlist";
 import ContactForm from "../Components/ContactForm";

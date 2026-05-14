@@ -8,7 +8,7 @@ import ContentSection from "../Components/ContentSection";
 import Services from "../Components/Services";
 import ServicesExtension from "../Components/ServicesExtension";
 import BestSeller from "../Components/BestSeller";
-import UserHeader from "./user/TempHeader";
+import UserHeader from "./user/UserHeader";
 import Cart from "./user/Cart";
 import ContactForm from "../Components/ContactForm";
 import Layout from "../Components/layout/Layout";
