@@ -6,7 +6,7 @@ import { useWishlist } from "../../context/WishlistContext";
 import { useNavigate } from "@tanstack/react-router";
 import ProfileModal from "./ProfileModal";
 
-const UserHeadder = ({ onSearch }) => {
+const UserHeader = ({ onSearch }) => {
   const { totalItems, setIsCartOpen } = useCart();
   const { wishlistItems, setIsWishlistOpen } = useWishlist();
   const [searchValue, setSearchValue] = useState("");
@@ -75,4 +75,4 @@ const UserHeadder = ({ onSearch }) => {
   );
 };
 
-export default UserHeadder;
+export default UserHeader;
