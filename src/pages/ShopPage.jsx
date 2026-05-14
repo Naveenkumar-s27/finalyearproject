@@ -45,7 +45,7 @@ const ShopPage = () => {
   return (
     <>
       <Nav />
-      <UserHeadder onSearch={(val) => setSearchTerm(val)} />
+      <UserHeader onSearch={(val) => setSearchTerm(val)} />
       <Cart />
       <Wishlist />
 
