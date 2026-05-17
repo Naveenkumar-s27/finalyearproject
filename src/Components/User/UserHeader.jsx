@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./UserHeadder.module.css";
+import styles from "./UserHeader.module.css";
 import { Search, Heart, UserRound, ShoppingBag } from "lucide-react";
 import { useCart } from "../../context/CartContext";
 import { useWishlist } from "../../context/WishlistContext";
