@@ -4,11 +4,11 @@ import { ChevronsRight, ChevronsLeft, Heart, ShoppingCart, Share2 } from "lucide
 import { products } from "../lib/Products";
 import { useCart } from "../context/CartContext";
 import { useWishlist } from "../context/WishlistContext";
-import UserHeader from "../Components/user/UserHeader";
-import Cart from "../Components/user/Cart";
-import Wishlist from "../Components/user/Wishlist";
-import Nav from "../Components/Nav";
-import Fotter from "../Components/Fotter";
+import UserHeader from "../Components/user/UserHeader.jsx";
+import Cart from "../Components/user/Cart.jsx";
+import Wishlist from "../Components/user/Wishlist.jsx";
+import Nav from "../Components/Nav.jsx";
+import Fotter from "../Components/Fotter.jsx";
 import { useSearch } from "@tanstack/react-router";
 
 const ShopPage = () => {
